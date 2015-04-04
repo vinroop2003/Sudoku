@@ -14,13 +14,17 @@ h1{
 }
 #SudokuTable {
 border-collapse: collapse;
+
 }
 tr {
 	  color: brown;	  
+	 
 }
 		
 td{
   color: brown;
+  width: 15px;
+  
 }
 
 #submit, #clear {
@@ -31,6 +35,12 @@ td{
 	background-color: #66CCFF;
 	font-weight: bold;
 	cursor: pointer;
+}
+#showResult{
+	color: white;
+	font-weight: bold;
+	align: center;
+	
 }
 
 
