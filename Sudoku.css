@@ -1,0 +1,36 @@
+
+body {
+ background-image: url("background.jpg");
+ background-repeat: no-repeat;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1{
+	color: white;
+	font: arial;
+	text-align: center;
+}
+#SudokuTable {
+border-collapse: collapse;
+}
+tr {
+	  color: brown;	  
+}
+		
+td{
+  color: brown;
+}
+
+#submit, #clear {
+	width: 140px;
+	height: 40px;
+	color: white;
+	text-align: center;
+	background-color: #66CCFF;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+
