@@ -6,7 +6,9 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  overflow: auto;
 }
+
 h1{
 	color: white;
 	font: arial;
@@ -14,33 +16,48 @@ h1{
 }
 #SudokuTable {
 border-collapse: collapse;
-
-}
-tr {
-	  color: brown;	  
-	 
 }
 		
 td{
   color: brown;
   width: 15px;
-  
 }
 
+input {
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	font-size: x-large;
+	border-style: groove;
+}
+.initialValue{
+	font-weight: bold;
+	color: #0033CC;
+	background-color: #E0F0FF
+	
+	
+}
 #submit, #clear {
-	width: 140px;
+	width: 160px;
 	height: 40px;
 	color: white;
 	text-align: center;
-	background-color: #66CCFF;
+	background-color: #30A0EA;
 	font-weight: bold;
 	cursor: pointer;
+	border: 2px outset white;
+	
 }
+
 #showResult{
 	color: white;
 	font-weight: bold;
-	align: center;
-	
+	margin: 10px;
+	font-size: x-large;	
+}
+
+.tableBottom{
+	margin: 10px;
 }
 
 
